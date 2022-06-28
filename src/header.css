@@ -1,0 +1,32 @@
+
+body{
+    color: whitesmoke;
+    background-color:#121825 ;
+    margin : auto
+    
+}
+#sub{
+    style:"font-size: small;"
+}
+.heading{
+    /* margin-left: 2%;
+    font-size:x-large;
+    margin-top: 2%;
+    color: white; */
+    color: var(--secondary-color);
+    opacity:0.9;
+    padding-left: 4%;
+    text-transform: capitalize;
+    font-size:x-large;
+    font-weight:500;
+     margin-top: 1%; 
+    
+    
+}
+header{
+    width: 100%;
+
+}
+#nav{
+    background-color: #121825;
+}
