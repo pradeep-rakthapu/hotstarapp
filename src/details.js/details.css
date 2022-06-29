@@ -1,0 +1,33 @@
+#demo{
+    background-color: #111212;
+    height: 400px;
+    margin-top: 78px;
+    position: relative;
+    margin-left: 1%;
+}
+#name{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#des{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.p{
+    font-size: large;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.s{
+    font-size: larger;
+    margin-top: 5%;
+    
+}
+#language{
+    font-size: large;
+}
+.hover:hover{
+    transform: scale(1.1);
+}

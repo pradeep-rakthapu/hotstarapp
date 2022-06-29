@@ -1,0 +1,33 @@
+.filter{
+    margin-top: 78px;
+}
+#block{
+     height: 350px;
+     width: 100%;
+}
+#inblock :hover{
+    transform: scale(1.1);
+}
+#inblock{
+    height: 300px;
+    width: 100%;
+    
+}
+#inblock>img{
+    border-radius: 5%;
+}
+#colhover{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin:auto;
+    border: 10px;
+    
+    margin-left: 1%;
+    
+}
+#colhover>img{
+    border-radius: 5%;
+}
+#colhover :hover{
+        transform: scale(1.1);
+}

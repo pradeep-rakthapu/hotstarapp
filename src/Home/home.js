@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Footer from "../footer";
 import Header from "../header";
 import Carousel from "./carousel";
 import DisneySlider from "./disney";
@@ -27,6 +28,7 @@ class Home extends  Component{
                   <SportSlider/>
                   <KidsSlider/>
                   <DisneySlider/>
+                  <Footer/>
                  </>
                 )
             }

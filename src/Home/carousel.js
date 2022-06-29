@@ -1,4 +1,5 @@
 import React,{Component} from "react";
+import { Link } from "react-router-dom";
 import './home.css'
 const url = 'https://hotstar7.herokuapp.com/scroller'
 class Carousel extends Component{
@@ -17,6 +18,7 @@ class Carousel extends Component{
                 return  this.state.carousel.map(item=>{
                     return(
                         <div class="carousel-item  "key={item.v_id} >
+                            <Link to={`/details/${item.v_id}`} >
                           <div class="row " id="rowbg">
                              <div class="col-lg-6 text-white m-0 "  >
                                 <h3 class="m-5 ">{item.name}</h3>
@@ -41,6 +43,7 @@ class Carousel extends Component{
                              </div>
 
                             </div>
+                            </Link>
                          
                         </div>
                     )

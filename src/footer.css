@@ -1,0 +1,29 @@
+.footer{
+    width: 100%;
+    color: antiquewhite;
+    background-color: #152037;
+}
+#b1{
+    float: left;
+    height: 140px;
+    width: 75%;
+    margin-top: 10%;
+
+}
+#b2{
+    float:left;
+    margin-top: 10%;
+}
+.fc{
+    margin-left: 2%;
+    margin-top: 5%;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.fa{
+    margin-left: 2%;
+    margin-top: 5%;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

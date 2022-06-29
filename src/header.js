@@ -14,32 +14,31 @@ class Header extends Component{
             
               <ul class="navbar-nav ml-5">
                   <li class="nav-item dropdown">
-                      <a class="nav-link  dropdown-toggle mt-2" href="#" id ="navbardrop" data-toggle ="dropdown" >  <i class="fa fa-bars fa-1x " aria-hidden="true"></i></a>
+                      <a class="nav-link  dropdown-toggle mt-2" href="#" id ="navbardrop" data-toggle ="dropdown" ></a>
 
                       <div class="dropdown-menu ">
-                          <a  class="dropdown-item " href="#"> channels</a>
-                          <a  class="dropdown-item" href="#"> geners</a>
-                          <a  class="dropdown-item" href="#"> languages</a>
+                          <Link to={'/homebar/channel'} class="dropdown-item " > channels</Link>
+                          <Link to={'/homebar/genres'} class="dropdown-item " > Genres</Link>
+                          <Link to={'/homebar/languages'} class="dropdown-item " > Languages</Link>
+                          
                       </div>
                   </li>
                   <li class="nav-item">
-                    <Link  to='/' className="nav-brand ml-3" > <img src="https://secure-media.hotstarext.com/web-assets/prod/images/brand-logos/disney-hotstar-logo-dark.svg" alt=""/> </Link>
+                    <Link  to='' className="nav-brand ml-3" > <img src="https://secure-media.hotstarext.com/web-assets/prod/images/brand-logos/disney-hotstar-logo-dark.svg" alt=""/> </Link>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link  dropdown-toggle ml-3" href="#" id ="navbardrop" data-toggle ="dropdown" >TV</a>
+                    <Link  to={'/tv'} class="nav-link  dropdown-toggle ml-3"  id ="navbardrop" data-toggle ="dropdown" >TV</Link>
 
-                    <div class="dropdown-menu ">
-                        <a  class="dropdown-item " href="#"> other shows</a>
+                     {/* <div class="dropdown-menu ">
                         <a  class="dropdown-item" href="#"> Hotstar Specials</a>
-                        <a  class="dropdown-item" href="#"> Star jalsa</a>
                         <a  class="dropdown-item" href="#"> Star plus</a>
-                        <a  class="dropdown-item" href="#"> Star vijay</a>
-                        <a  class="dropdown-item" href="#"> others</a>
-                    </div>
+                        <a  class="dropdown-item" href="#"> Starmaa</a>
+                        <a  class="dropdown-item" href="#"> others</a> 
+                    </div>  */}
                 </li>
                 <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle ml-3" id="navbardrop" data-toggle="dropdown"> Movies</a>
-                    <div class="dropdown-menu" >
+                    <Link to={'/movies'} class="nav-link dropdown-toggle ml-3" id="navbardrop" data-toggle="dropdown"> Movies</Link>
+                    {/* <div class="dropdown-menu" >
                         <a href="#" class="dropdown-item" >Hindi</a>
                         <a href="#" class="dropdown-item" >Telugu</a>
                         <a href="#" class="dropdown-item" >English</a>
@@ -47,12 +46,12 @@ class Header extends Component{
                         <a href="#" class="dropdown-item" >Malyalam</a>
                         <a href="#" class="dropdown-item" >Others</a>
 
-                    </div>
+                    </div> */}
 
                 </li>
                 <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle ml-3" id="navbardrop" data-toggle="dropdown">Sports</a>
-                    <div class="dropdown-menu" >
+                    <Link to={'/sports'} class="nav-link dropdown-toggle ml-3" id="navbardrop" data-toggle="dropdown">Sports</Link>
+                    {/* <div class="dropdown-menu" >
                         <a href="#" class="dropdown-item" >Cricket</a>
                         <a href="#" class="dropdown-item" >Football</a>
                         <a href="#" class="dropdown-item" >Hockey</a>
@@ -60,16 +59,16 @@ class Header extends Component{
                         <a href="#" class="dropdown-item" >esports</a>
                         <a href="#" class="dropdown-item" >Others</a>
 
-                    </div>
+                    </div> */}
 
 
                 </li>
                 <li class="nav-item dropdown">
-                    <a href="#" class="nav-link ml-3"> Disney+</a>
+                    <Link to={'/disney'} class="nav-link ml-3"> Disney+</Link>
 
                 </li>
                 <li class="nav-item dropdown">
-                    <a href="#" class="nav-link ml-3 "><img src="https://www.hotstar.com/assets/4aa70ede8904e16b7630300c09219c8e.svg" alt=""/></a>
+                    <Link to={'/kids'} class="nav-link ml-3 "><img src="https://www.hotstar.com/assets/4aa70ede8904e16b7630300c09219c8e.svg" alt="Kids"/></Link>
 
                 </li>
                

@@ -1,0 +1,17 @@
+.filter{
+    margin-top: 78px;
+}
+#block{
+     height: 350px;
+     width: 100%;
+}
+#inblock :hover{
+    transform: scale(1.1);
+}
+#inblock{
+    height: 300px;
+    width: 100%;
+}
+#colhover :hover{
+        transform: scale(1.1);
+}

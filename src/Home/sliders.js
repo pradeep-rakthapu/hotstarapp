@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import './slider.css'
+import { Link } from "react-router-dom";
 const url ='https://hotstar7.herokuapp.com/total?year=2022'
 
  class SimpleSlider extends Component {
@@ -10,14 +11,18 @@ const url ='https://hotstar7.herokuapp.com/total?year=2022'
             sliders:''
         }
     }
+       
         
     sliders() {
       if(this.state.sliders){
         return this.state.sliders.map(data => {
             return (
-                <div key={data.v_id} className="tile" >
+                <div key={data.v_id} className="tile"  >
+                  
                     <img alt="image" src={data.image} />
-                    <p>{data.name}</p>
+                    <Link to={`/details/${data.v_id}`}> <p>{data.name}</p></Link>
+                    
+                  
                 </div>
             )
         });
